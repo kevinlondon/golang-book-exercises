@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-    // := operator implies new variable with smart type detection
-    x := "Hello World"
+    const x string = "Hello World"
+    var (
+        a = 5
+        b = 10
+        c = 15
+    )
     fmt.Println(x)
 }
